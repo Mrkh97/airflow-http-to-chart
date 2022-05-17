@@ -1,0 +1,23 @@
+[2022-05-17 20:23:09,168] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: httpChartDag.trainingModelA scheduled__2022-05-16T00:00:00+00:00 [queued]>
+[2022-05-17 20:23:09,178] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: httpChartDag.trainingModelA scheduled__2022-05-16T00:00:00+00:00 [queued]>
+[2022-05-17 20:23:09,178] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 20:23:09,179] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-17 20:23:09,179] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 20:23:09,193] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): trainingModelA> on 2022-05-16 00:00:00+00:00
+[2022-05-17 20:23:09,199] {standard_task_runner.py:52} INFO - Started process 6014 to run task
+[2022-05-17 20:23:09,202] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'httpChartDag', 'trainingModelA', 'scheduled__2022-05-16T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/httpChartDag.py', '--cfg-path', '/tmp/tmpghpouxrf', '--error-file', '/tmp/tmp91w_qk_2']
+[2022-05-17 20:23:09,203] {standard_task_runner.py:80} INFO - Job 6: Subtask trainingModelA
+[2022-05-17 20:23:09,261] {task_command.py:369} INFO - Running <TaskInstance: httpChartDag.trainingModelA scheduled__2022-05-16T00:00:00+00:00 [running]> on host 9b3fb5fadbaa
+[2022-05-17 20:23:09,341] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=httpChartDag
+AIRFLOW_CTX_TASK_ID=trainingModelA
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-16T00:00:00+00:00
+[2022-05-17 20:23:09,342] {python.py:173} INFO - Done. Returned value was: 2
+[2022-05-17 20:23:09,370] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=httpChartDag, task_id=trainingModelA, execution_date=20220516T000000, start_date=20220517T202309, end_date=20220517T202309
+[2022-05-17 20:23:09,416] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-05-17 20:23:09,470] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
