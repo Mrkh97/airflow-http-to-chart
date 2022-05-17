@@ -1,0 +1,99 @@
+[2022-05-17 18:53:15,074] {processor.py:153} INFO - Started process (PID=3588) to work on /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:53:15,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/httpChartDag.py for tasks to queue
+[2022-05-17 18:53:15,075] {logging_mixin.py:115} INFO - [2022-05-17 18:53:15,075] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:53:15,086] {logging_mixin.py:115} INFO - [2022-05-17 18:53:15,085] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/httpChartDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/httpChartDag.py", line 7
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-05-17 18:53:15,087] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:53:15,102] {processor.py:161} INFO - Processing /opt/airflow/dags/httpChartDag.py took 0.031 seconds
+[2022-05-17 18:53:45,224] {processor.py:153} INFO - Started process (PID=3650) to work on /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:53:45,225] {processor.py:641} INFO - Processing file /opt/airflow/dags/httpChartDag.py for tasks to queue
+[2022-05-17 18:53:45,225] {logging_mixin.py:115} INFO - [2022-05-17 18:53:45,225] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:53:45,234] {logging_mixin.py:115} INFO - [2022-05-17 18:53:45,234] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/httpChartDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/httpChartDag.py", line 7
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-05-17 18:53:45,235] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:53:45,253] {processor.py:161} INFO - Processing /opt/airflow/dags/httpChartDag.py took 0.031 seconds
+[2022-05-17 18:54:15,285] {processor.py:153} INFO - Started process (PID=3703) to work on /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:54:15,286] {processor.py:641} INFO - Processing file /opt/airflow/dags/httpChartDag.py for tasks to queue
+[2022-05-17 18:54:15,286] {logging_mixin.py:115} INFO - [2022-05-17 18:54:15,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:54:15,294] {logging_mixin.py:115} INFO - [2022-05-17 18:54:15,294] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/httpChartDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/httpChartDag.py", line 7
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-05-17 18:54:15,295] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:54:15,309] {processor.py:161} INFO - Processing /opt/airflow/dags/httpChartDag.py took 0.026 seconds
+[2022-05-17 18:54:45,488] {processor.py:153} INFO - Started process (PID=3764) to work on /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:54:45,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/httpChartDag.py for tasks to queue
+[2022-05-17 18:54:45,490] {logging_mixin.py:115} INFO - [2022-05-17 18:54:45,490] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:54:45,502] {logging_mixin.py:115} INFO - [2022-05-17 18:54:45,501] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/httpChartDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/httpChartDag.py", line 7
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-05-17 18:54:45,502] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:54:45,521] {processor.py:161} INFO - Processing /opt/airflow/dags/httpChartDag.py took 0.035 seconds
+[2022-05-17 18:55:16,310] {processor.py:153} INFO - Started process (PID=3824) to work on /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:55:16,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/httpChartDag.py for tasks to queue
+[2022-05-17 18:55:16,312] {logging_mixin.py:115} INFO - [2022-05-17 18:55:16,312] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:55:16,324] {logging_mixin.py:115} INFO - [2022-05-17 18:55:16,323] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/httpChartDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/httpChartDag.py", line 7
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-05-17 18:55:16,324] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:55:16,341] {processor.py:161} INFO - Processing /opt/airflow/dags/httpChartDag.py took 0.033 seconds
+[2022-05-17 18:55:17,592] {processor.py:153} INFO - Started process (PID=3830) to work on /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:55:17,592] {processor.py:641} INFO - Processing file /opt/airflow/dags/httpChartDag.py for tasks to queue
+[2022-05-17 18:55:17,593] {logging_mixin.py:115} INFO - [2022-05-17 18:55:17,593] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:55:17,617] {logging_mixin.py:115} INFO - [2022-05-17 18:55:17,614] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/httpChartDag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/httpChartDag.py", line 11, in <module>
+    with DAG("httpChartDag",discription='turning http log data usage into chart',start_date=datetime(2022,1,1),schedule_interval='@daily',catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'discription'
+[2022-05-17 18:55:17,618] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/httpChartDag.py
+[2022-05-17 18:55:17,633] {processor.py:161} INFO - Processing /opt/airflow/dags/httpChartDag.py took 0.043 seconds
