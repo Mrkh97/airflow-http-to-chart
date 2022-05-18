@@ -6,7 +6,7 @@ from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.bash import BashOperator
 
 
-def _trainingModel():
+def _parseHttp():
     numberOfLines = 0
     numberOfGet = 0
     numberOfPost = 0
@@ -48,7 +48,7 @@ def _trainingModel():
 
 
 with DAG("httpChartDag", start_date=datetime(2022, 1, 1), schedule_interval='@daily', catchup=False) as dag:
-    training_mode_A = PythonOperator(
-        task_id="trainingModelA",
-        python_callable=_trainingModel
+    parseHttp = PythonOperator(
+        task_id="parseHttp",
+        python_callable=_parseHttp
     )
